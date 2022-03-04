@@ -44,7 +44,7 @@ CHROME_DVR_DIR = "C:/Users/Administrator/Desktop/Brute/chromedriver.exe" # tải
 
 def wizard():
     print (banner)
-    website = input("Enter a website: ")
+    website = input("Nhập website: ")
     sys.stdout.write(color.GREEN + "[!] "+color.CWHITE + "Đang kiểm tra "),
     sys.stdout.flush()
     t.sleep(1)
